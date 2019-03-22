@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
         if (time > 1) finalTime = time;
 
         Calendar calendar = Calendar.getInstance();
+        
+        calendar.setTime(new Date())
 
         calendar.set(Calendar.HOUR_OF_DAY, finalTime);
         calendar.set(Calendar.MINUTE, 0);
