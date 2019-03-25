@@ -18,6 +18,7 @@ import android.widget.NumberPicker;
 import android.widget.Toast;
 
 import java.util.Calendar;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPref;
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
         Calendar calendar = Calendar.getInstance();
         
-        calendar.setTime(new Date())
+        calendar.setTime(new Date());
 
         calendar.set(Calendar.HOUR_OF_DAY, finalTime);
         calendar.set(Calendar.MINUTE, 0);

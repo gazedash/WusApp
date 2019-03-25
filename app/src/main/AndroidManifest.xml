@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplicationplayer">
     
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
 
     <application
         android:allowBackup="true"
